@@ -47,7 +47,10 @@
     "autoload": {
         "psr-4": {
             "LaravelLang\\HttpStatuses\\": "src"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
