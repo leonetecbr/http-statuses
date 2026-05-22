@@ -3,7 +3,15 @@
     "description": "List of 77 languages for HTTP statuses",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "languages", "lang", "translations", "messages", "http", "status"],
+    "keywords": [
+        "laravel",
+        "languages",
+        "lang",
+        "translations",
+        "messages",
+        "http",
+        "status"
+    ],
     "authors": [
         {
             "name": "Andrey Helldar",
@@ -27,7 +35,10 @@
     "autoload": {
         "psr-4": {
             "LaravelLang\\HttpStatuses\\": "src"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
